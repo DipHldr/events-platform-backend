@@ -1,0 +1,27 @@
+# Python internals
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (Very Important)
+venv/
+env/
+.venv/
+
+# Environment Variables (Secrets)
+.env
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# IDE settings (VS Code, JetBrains)
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
