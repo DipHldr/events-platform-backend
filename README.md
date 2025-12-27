@@ -157,8 +157,7 @@ The API will be available at `http://127.0.0.1:8000/`.
 
 ### 4. Database Indexes
 
-* 
-**Decision:** Added `db_index=True` to `starts_at`, `location`, and `language` fields in the Event model.
+* **Decision:** Added `db_index=True` to `starts_at`, `location`, and `language` fields in the Event model.
 
 
 * **Reasoning:** These are the primary filtering fields for Seekers. Indexing them ensures search queries remain fast as the dataset grows.
